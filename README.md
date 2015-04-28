@@ -37,6 +37,7 @@ Zadania:
 Bonusy:
 * [Bonus 1](bonus01)
 * [Bonus toCNF](cv07#bonus)
+* [[Súťaž o najrýchlejší SAT solver](sat)
 
 Domáce úlohy
 ------------
