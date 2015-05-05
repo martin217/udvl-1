@@ -8,6 +8,47 @@ do Štvrtka 14.5. 23:59:59.**
 Súbory potrebné pre toto cvičenie si môžete stiahnúť ako jeden zip
 [`cv10.zip`](https://github.com/FMFI-UK-1-AIN-411/udvl/archive/cv10.zip).
 
+## Predikátová logika
+
+Zapíšte v prvorádovej logike nasledovné tvrdenia (ak sú v zátvorke uvedené
+konkrétne predikáty, použitie tie):
+
+1. Potme je každá krava čierna.
+
+1. Niet ruže bez tŕňa. (`ruza(x)`, `trn(x)`, `ma(x,y)`)
+
+1. Niet na svete nikoho, kto by bol vždy šťastný. (`stastny(kto, kedy)`)
+
+1. Vrana k vrane sadá.
+
+1. `G` je kompletný graf. (`vrcholGrafu(graf,vrchol)`,
+   `hranaGrafu(graf,vrchol1,vrchol2)`)
+
+1. Lež večná meno toho nech ovenčí sláva,  
+   kto seba v obeť svätú za svoj národ dáva.
+
+Rozhodnite a zdôvodnite ktoré z nasledovných tvrdení sú pravdivé a ktoré nie:
+
+1. Nech `φ` je prvorádová formula bez kvantifikátorov. Ak vo `φ` nahradíme
+   všetky premenné za konštanty, dostaneme výrokovologickú formulu.
+
+1. Nech `F` je splniteľná výrokovologická formula. Vyrobíme z nej prvorádovú
+   formulu `Φ` tak, že každú výrokovologickú premennú `a` zmeníme na unárny
+   predikát `a(x)` a "pred" celú formulu pridáme `∀x`. Teda napríklad formula
+   `((a∧b)→(b∨a))` sa zmení na `∀x((a(x)∧b(x))→(b(x)∨a(x)))`.  Potom `Φ` je
+   tiež splniteľná formula.
+
+1. Nech `Φ` je prvorádová formula bez kvantifikátorov, premenných a funkčných
+   symbolov (môže obsahovať konštanty).  Výrokovologickú formulu `F` vytvoríme
+   tak, že všetky predikáty tvaru
+   <code>P(c<sub>1</sub>,c<sub>2</sub>,...,c<sub>n</sub>)</code> vo `Φ`
+   nahradíme výrokovologickou premennou
+   <code>P\_c<sub>1</sub>\_c<sub>2</sub>\_...\_c<sub>n</sub></code>.
+   Ak `Φ` bola splniteľná formula, tak `F` je tiež splniteľná.
+
+1. Existuje formula pravdivá v práve jednej štruktúre.
+
+
 ## Hamiltonovská kružnica (4b)
 
 Pomocou SAT solveru nájdite hamiltonovskú kružnicu v orientovanom grafe.
